@@ -383,12 +383,62 @@ main{
         display: none;
     }
     .main-feed{
-        width: 90%;
+        width: 100%;
         margin-left: -80px;
     }
     .main-feed{
         border-right:none ;
     }
+    .home-bar{
+    font-size: 2.8rem;
+    }
+    .h1-title{
+        font-size: 2.8rem;
+    }
+    .home-bar span{
+        margin-left: -20px;
+    }
+    .home-bar i{
+        margin-right: -30px;
+    }
+    .new-tweet .tweet-img{
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    .new-tweet-actions ul li i{
+        width: 18px;
+        font-size: 18px;
+    }
+    .new-tweet-actions .tweet-button{
+    width: 100px;
+    height: 40px;
+    font-size: 1.8rem;
+    }
+  .feed-tweet .tweet-img{
+    width: 55px;
+    height: 55px;
+    margin-right: 5px;
+  }  
+  .tweeter-details{
+    font-size: 2rem;  
+}
+.feed-tweet i{
+    font-size: 2.5rem;
+}
+.tweet-text{
+    font-size: 2rem;
+}
+.tweeter-details span{
+    font-size: 1.5rem;
+}
+.tweeter-name{
+    font-size: 20px;
+}
+
+
+
+
 }
 
 
