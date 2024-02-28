@@ -40,6 +40,8 @@ header{
     padding: 8x 25px 8px 8px;
     font-size: 2rem;
     width: fit-content;
+     margin-bottom: 15px;
+
 }
 .nav-link a i{
     margin-right: 15px;
@@ -64,8 +66,10 @@ border-radius: 9999px;
     font-size: 1.7rem;
     font-weight: 700;
     color: white;
-    margin-top: 15px;
+    margin-top: 20px;
     border: 1px  solid black;
+    padding: 10px;
+
     transition-duration: 0.2s;
 }
  .tweet-button:hover {
@@ -371,7 +375,21 @@ main{
     display: flex;
     justify-content: space-between;
 }
-
+@media screen and (max-width:480px){
+    header{
+        display: none;
+    }
+    .side-feed{
+        display: none;
+    }
+    .main-feed{
+        width: 100%;
+        margin-left: -80px;
+    }
+    .main-feed{
+        border-right:none ;
+    }
+}
 
 
 
